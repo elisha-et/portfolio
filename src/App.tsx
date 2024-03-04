@@ -3,7 +3,6 @@ import About from "./components/About/About";
 import Name from "./components/Name/Name";
 import Navigation from "./components/Navigation/Navigation";
 import Project from "./components/Project/Project";
-import ScrollToTopButton from "./components/ScrollBtn/ScrollBtn";
 import Skills from "./components/Skills/Skills";
 import Type from "./components/Type/Type";
 
@@ -11,7 +10,6 @@ function App() {
   return (
     <>
       <div className="appContainer">
-        {/* <ScrollToTopButton/> */}
         <Navigation />
         <Name />
         <Type />
