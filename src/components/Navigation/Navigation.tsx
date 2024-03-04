@@ -31,7 +31,7 @@ function Navigation() {
           offset={50}
           duration={500}
         >
-          <div className="name">Elisha Etukudoh</div>
+          <div className="name" >Elisha Etukudoh</div>
         </Link>
 
         <div className="navs">

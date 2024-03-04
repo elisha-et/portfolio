@@ -29,6 +29,7 @@ nav .icons ul li:hover {
 nav .name {
   font-weight: 700;
   font-size: 20px;
+  cursor: pointer;
 }
 
 nav .icons ul {
@@ -49,4 +50,5 @@ nav .navs ul {
 nav .navs ul li {
   outline: 1px solid #172132;
   font-size: 17px;
+  cursor: pointer;
 }
