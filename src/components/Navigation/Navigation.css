@@ -1,0 +1,52 @@
+nav {
+  color: white;
+  padding: 40px 0px 50px 0px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav .name,
+nav .navs ul li,
+nav .icons ul li {
+  padding: 7px 10px;
+  border-radius: 8px;
+  transition: ease-in-out, 0.2s;
+}
+
+nav .name:hover,
+nav .navs ul li:hover,
+nav .icons ul li:hover {
+  background-color: #172132;
+}
+
+nav .name {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+nav .icons ul {
+  display: flex;
+  list-style: none;
+}
+
+nav .icons ul li {
+  font-size: 22px;
+}
+
+nav .navs ul {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+nav .navs ul li {
+  outline: 1px solid #172132;
+  font-size: 17px;
+}

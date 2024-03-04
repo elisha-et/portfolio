@@ -1,0 +1,65 @@
+a{
+    text-decoration: none;
+}
+
+.project{
+    outline: 2px solid #111827;
+    border-radius: 8px;
+    transition: ease-in-out, 0.3s;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.project:hover{
+    outline: white 2px solid;
+}
+
+.project .top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.project .top .name{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(248, 250, 252);
+}
+
+.project .top .date{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(148, 163, 184);
+}
+
+.project .center{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(148, 163, 184);
+    margin-bottom: 10px;
+}
+
+.project .bottom{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.project .bottom ul{
+    list-style: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(248, 250, 252);
+}
+
+.project .bottom ul li{
+    outline: 1px solid#172132;
+    padding: 1px 8px;
+    border-radius: 10px;
+    transition: ease-in-out 0.1s;
+}
+
+.project .bottom ul li:hover{
+    background-color: #172132;
+}

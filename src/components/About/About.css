@@ -1,0 +1,18 @@
+.about{
+    margin-top: 40px;
+}
+
+.about .title{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(248, 250, 252);
+    margin-bottom: 20px;
+}
+
+.about .aboutme{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(148, 163, 184);
+    text-align: justify;
+    line-height: 20px;
+}
