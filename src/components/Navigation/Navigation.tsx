@@ -28,7 +28,7 @@ function Navigation() {
           to="about"
           spy={true}
           smooth={true}
-          offset={50}
+          offset={-10}
           duration={500}
         >
           <div className="name" >Elisha Etukudoh</div>
@@ -41,7 +41,7 @@ function Navigation() {
               to="skills"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-10}
               duration={500}
             >
               <li>Skills</li>
@@ -52,7 +52,7 @@ function Navigation() {
               to="projects"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={-10}
               duration={500}
             >
               <li>Projects</li>
