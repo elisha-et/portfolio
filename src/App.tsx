@@ -17,21 +17,28 @@ function App() {
         <Skills />
         <p className="projects">Projects</p>
         <Project
-          name="Icons 8 Clone"
-          date="December 2023"
-          description="A clone of the index page of icons 8 home page using HTML and CSS."
-          skills={["HTML", "CSS", "GitHub"]}
-          link="https://icons-8-zeta.vercel.app/"
-          gitlink="https://github.com/elisha-et/Icons-8"
+          name="PlanetHunters"
+          date="August 2023"
+          description="Python-powered AI model designed to detect Milky Way galactic exoplanets. Utilizing light-brightness data from NASA's Kepler space telescope, this project aims to uncover celestial wonders beyond our solar system. Join the hunt for new worlds and explore the universe with PlanetHunters."
+          skills={["Python", "Jupyter Notebook", "GitHub"]}
+          link="https://github.com/elisha-et/PlanetHunters"
+          gitlink="https://github.com/elisha-et/PlanetHunters"
         />
         <Project
-          name="Fashion"
+          name="IconicClone"
+          date="December 2023"
+          description="A replica of the Icons8 website created using HTML and CSS. Explore this project to learn how to replicate the design and functionality of Icons8, a popular platform for free icons, illustrations, and design resources."
+          skills={["HTML", "CSS", "GitHub"]}
+          link="https://icons-8-zeta.vercel.app/"
+          gitlink="https://github.com/elisha-et/IconicClone"
+        />
+        <Project
+          name="LocalMallGenius"
           date="February 2024"
-          description="An E-Commerce website which made use of local storage to store product's data.
-           An admin dashboard is created to add, edit, and delete products which are updated on the home page."
+          description="An e-commerce website built with HTML, CSS, and JavaScript, featuring a local storage-based product management system and cart functionality. Explore the admin dashboard to seamlessly add, edit, and delete products, all of which dynamically update on the home page. The cart utilizes local storage to provide a smooth and persistent shopping experience. Dive into this project to learn how to implement local storage in web development and create a robust e-commerce platform."
           skills={["HTML", "CSS", "JavaScript", "GitHub"]}
-          link="https://github.com/elisha-et/E-Commerce"
-          gitlink="https://github.com/elisha-et/E-Commerce"
+          link="https://github.com/elisha-et/LocalMallGenius"
+          gitlink="https://github.com/elisha-et/LocalMallGenius"
         />
       </div>
     </>
