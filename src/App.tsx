@@ -28,7 +28,7 @@ function App() {
           name="MiDOK"
           date="November 2023"
           description="MiDOK is an AI-powered diagnostic co-pilot application aimed at addressing the challenges present in today's healthcare landscape, including the nursing shortage and professional burnout. It assists healthcare professionals by providing targeted lists of potential diagnoses through a unique AI-prompting mechanism, enhancing diagnostic precision without replacing medical expertise."
-          skills={["HTML", "CSS", "TypeScript","GitHub"]}
+          skills={["HTML", "CSS", "TypeScript", "React", "GitHub"]}
           link="https://github.com/emmanuel-et/MiDOK_Co-Pilot_App-web"
           gitlink="https://github.com/emmanuel-et/MiDOK_Co-Pilot_App-web"
         />
