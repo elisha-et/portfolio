@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Copyright from "./components/Copyright/Copyright";
 import Name from "./components/Name/Name";
 import Navigation from "./components/Navigation/Navigation";
 import Project from "./components/Project/Project";
@@ -65,6 +66,7 @@ function App() {
           gitlink="https://github.com/elisha-et/portfolio"
         />
       </div>
+        <Copyright/>
     </>
   );
 }

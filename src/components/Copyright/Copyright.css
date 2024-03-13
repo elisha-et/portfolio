@@ -1,0 +1,18 @@
+.copyright{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    border-top: 1px solid #0d1423;
+    margin-top: 20px;
+    padding: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(148, 163, 184);
+    font-family: __Inter_aaf875, __Inter_Fallback_aaf875, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.copyright .fa-copyright{
+    font-size: 14px;
+    font-weight: 400;
+}
