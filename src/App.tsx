@@ -33,14 +33,6 @@ function App() {
           gitlink="https://github.com/emmanuel-et/MiDOK_Co-Pilot_App-web"
         />
         <Project
-          name="Portfolio"
-          date="March 2024"
-          description="Here, I showcase my skills, projects, and passion for Computer Science. Explore a diverse range of projects reflecting my expertise and dedication. From coding challenges to practical applications, each project highlights my commitment to innovation and excellence in the field."
-          skills={["HTML", "CSS", "TypeScript", "React", "GitHub"]}
-          link="https://portfolio-phi-nine-66.vercel.app/"
-          gitlink="https://github.com/elisha-et/portfolio"
-        />
-        <Project
           name="IconicClone"
           date="December 2023"
           description="A replica of the Icons8 website created using HTML and CSS. Explore this project to learn how to replicate the design and functionality of Icons8, a popular platform for free icons, illustrations, and design resources."
@@ -63,6 +55,14 @@ function App() {
           skills={["Microsoft Excel", "Power BI", "GitHub"]}
           link="https://github.com/elisha-et/DashboardHub"
           gitlink="https://github.com/elisha-et/DashboardHub"
+        />
+        <Project
+          name="Portfolio"
+          date="March 2024"
+          description="Here, I showcase my skills, projects, and passion for Computer Science. Explore a diverse range of projects reflecting my expertise and dedication. From coding challenges to practical applications, each project highlights my commitment to innovation and excellence in the field."
+          skills={["HTML", "CSS", "TypeScript", "React", "GitHub"]}
+          link="https://portfolio-phi-nine-66.vercel.app/"
+          gitlink="https://github.com/elisha-et/portfolio"
         />
       </div>
     </>
