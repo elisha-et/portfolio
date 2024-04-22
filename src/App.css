@@ -9,7 +9,7 @@ body{
     flex-direction: column;
     justify-content: center;
     margin: auto;
-    width: 650px;
+    width: 55vw;
 }
 
 .appContainer .projects{

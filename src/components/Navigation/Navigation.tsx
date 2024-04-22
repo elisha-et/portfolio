@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 function Navigation() {
   return (
     <>
-      <nav>
+      <nav className="nav">
         <div className="icons">
           <ul>
             <a href="https://github.com/elisha-et" target="_blank">

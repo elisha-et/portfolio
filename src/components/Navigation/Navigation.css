@@ -30,6 +30,7 @@ nav .name {
   font-weight: 700;
   font-size: 20px;
   cursor: pointer;
+  margin-left: 20px;
 }
 
 nav .icons ul {
