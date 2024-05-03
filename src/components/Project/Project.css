@@ -51,6 +51,7 @@ a{
     font-size: 12px;
     font-weight: 600;
     color: rgb(248, 250, 252);
+    width: max-content;
 }
 
 .project .bottom ul li{
@@ -58,6 +59,7 @@ a{
     padding: 1px 8px;
     border-radius: 10px;
     transition: ease-in-out 0.1s;
+    width: max-content;
 }
 
 .project .bottom ul li:hover{

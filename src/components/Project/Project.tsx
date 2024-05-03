@@ -10,17 +10,17 @@ interface IProject{
 }
 
 function Project({name, date, description, skills, link, gitlink}:IProject) {
+
     function printSkills(skills: string[]) {
-        return skills.map((skill, index) => (
-            <>
-            <ul>
-                <li key={index}>{skill}</li>
-            </ul>
-            </>
-        ));
+        return skills.map((skill, index) => {
+            return (
+                <ul key={index}>
+                    <li >{skill}</li>
+                </ul>
+            );
+        });
     }
     
-
   return (
     <>
     <a href={link} target="_blank">

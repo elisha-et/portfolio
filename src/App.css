@@ -19,3 +19,21 @@ body{
     margin-bottom: 20px;
     margin-top: 60px;
 }
+
+@media screen and (max-width:1000px){
+    .appContainer{
+        width: 70vw;
+    }
+  }
+
+@media screen and (max-width:600px){
+    .appContainer{
+        width: 80vw;
+    }
+  }
+
+@media screen and (max-width:550px){
+    .appContainer{
+        width: 90vw;
+    }
+  }
