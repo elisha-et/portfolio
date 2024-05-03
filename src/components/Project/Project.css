@@ -65,3 +65,11 @@ a{
 .project .bottom ul li:hover{
     background-color: #172132;
 }
+
+@media screen and (max-width:365px){
+    .project .bottom{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        justify-content: left;
+    }
+  }

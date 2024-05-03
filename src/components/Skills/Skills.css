@@ -1,30 +1,36 @@
-.skills{
-    margin-top: 60px;
-    margin-bottom: 20px;
+.skills {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 
-.skills .title{
-    font-size: 16px;
-    font-weight: 600;
-    color: rgb(248, 250, 252);
-    margin-bottom: 20px;
+.skills .title {
+  font-size: 16px;
+  font-weight: 600;
+  color: rgb(248, 250, 252);
+  margin-bottom: 20px;
 }
 
-.skills .icons{
-    list-style: none;
-    font-size: 80px;
-    display: grid;
-    justify-items: center;
-    row-gap: 30px;
-    grid-template-columns: repeat(3, 1fr);
-    color: rgb(148, 163, 184);
+.skills .icons {
+  list-style: none;
+  font-size: 80px;
+  display: grid;
+  justify-items: center;
+  row-gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  color: rgb(148, 163, 184);
 }
 
-.skills p{
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    font-size: 14px;
-    font-weight: 400;
-    color: rgb(148, 163, 184);
+.skills p {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgb(148, 163, 184);
+}
+
+@media screen and (max-width: 365px) {
+  .skills .icons {
+    font-size: 70px;
+  }
 }
