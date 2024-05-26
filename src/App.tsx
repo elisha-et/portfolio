@@ -23,7 +23,7 @@ function App() {
           name="PlanetHunters"
           date="August 2023"
           description="Python-powered AI model designed to detect Milky Way galactic exoplanets. Utilizing light-brightness data from NASA's Kepler space telescope, this project aims to uncover celestial wonders beyond our solar system. Join the hunt for new worlds and explore the universe with PlanetHunters."
-          skills={["Python", "Jupyter Notebook", "GitHub"]}
+          skills={["Python", "Google Colaboratory", "GitHub"]}
           link="https://github.com/elisha-et/PlanetHunters"
           gitlink="https://github.com/elisha-et/PlanetHunters"
         />
