@@ -7,11 +7,13 @@ import Project from "./components/Project/Project";
 import ScrollToTopButton from "./components/ScrollBtn/ScrollBtn";
 import Skills from "./components/Skills/Skills";
 import Type from "./components/Type/Type";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
     <>
       <div className="appContainer">
+        <Analytics/>
         <ScrollToTopButton/>
         <Navigation />
         <Name />
