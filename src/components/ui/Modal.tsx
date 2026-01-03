@@ -54,13 +54,23 @@ export default function Modal({ isOpen, onClose, children, title }: ModalProps) 
               className="relative w-full max-w-2xl max-h-[90vh] sm:max-h-[85vh] overflow-y-auto bg-background border border-accent/30 rounded-xl shadow-2xl pointer-events-auto m-2 sm:m-0"
               onClick={(e) => e.stopPropagation()}
             >
+              {/* Title */}
+              {title && (
+                <div className="sticky top-0 bg-background border-b border-white/10 px-4 sm:px-6 py-4 z-[5]">
+                  <h2 className="font-display font-semibold text-xl sm:text-2xl text-foreground pr-12 sm:pr-8">
+                    {title}
+                  </h2>
+                </div>
+              )}
+
               {/* Close Button */}
               <button
                 onClick={onClose}
-                className="absolute top-4 right-4 text-muted hover:text-foreground transition-colors cursor-hover z-10"
+                className="fixed sm:absolute top-2 right-2 sm:top-4 sm:right-4 w-10 h-10 sm:w-8 sm:h-8 flex items-center justify-center bg-background/90 backdrop-blur-sm border border-white/20 rounded-full text-foreground hover:text-accent hover:border-accent/50 transition-all cursor-hover z-[110] shadow-lg"
+                aria-label="Close modal"
               >
                 <svg
-                  className="w-6 h-6"
+                  className="w-6 h-6 sm:w-5 sm:h-5"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -68,20 +78,11 @@ export default function Modal({ isOpen, onClose, children, title }: ModalProps) 
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
-                    strokeWidth={2}
+                    strokeWidth={2.5}
                     d="M6 18L18 6M6 6l12 12"
                   />
                 </svg>
               </button>
-
-              {/* Title */}
-              {title && (
-                <div className="sticky top-0 bg-background border-b border-white/10 px-4 sm:px-6 py-4 z-[5]">
-                  <h2 className="font-display font-semibold text-xl sm:text-2xl text-foreground pr-8">
-                    {title}
-                  </h2>
-                </div>
-              )}
 
               {/* Content */}
               <div className="p-4 sm:p-6">{children}</div>
