@@ -8,32 +8,32 @@ Committed to growth, innovation, and service, I strive to continuously improve m
   galleryImages: [
     {
       id: "img-1",
-      src: "/src/assets/images/elisha1.jpg",
+      src: "/images/elisha1.jpg",
       caption: "Elisha Etukudoh",
     },
     {
       id: "img-2",
-      src: "/src/assets/images/elisha2.jpg",
+      src: "/images/elisha2.jpg",
       caption: "Google Internship",
     },
     {
       id: "img-3",
-      src: "/src/assets/images/elisha3.jpg",
+      src: "/images/elisha3.jpg",
       caption: "NSBE 2025 Annual Conference",
     },
     {
       id: "img-4",
-      src: "/src/assets/images/elisha4.jpg",
+      src: "/images/elisha4.jpg",
       caption: "Alcon 2025 R&D Innovate Boldly Externship",
     },
     {
       id: "img-5",
-      src: "/src/assets/images/elisha5.jpg",
+      src: "/images/elisha5.jpg",
       caption: "D.E. Shaw Connect 2025",
     },
     {
       id: "img-6",
-      src: "/src/assets/images/elisha6.jpg",
+      src: "/images/elisha6.jpg",
       caption: "Google Internship",
     },
   ] as GalleryImage[],

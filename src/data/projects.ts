@@ -32,7 +32,7 @@ export const projectsData: Project[] = [
       "OpenAI API"
     ],
     githubLink: "https://github.com/elisha-et/TutorLink",
-    image: "/src/assets/images/tutorlink.png"
+    image: "/images/tutorlink.png"
   },
   {
     id: "proj-2",
@@ -53,7 +53,7 @@ export const projectsData: Project[] = [
       "Render.com"
     ],
     githubLink: "https://github.com/elisha-et/greenguide-ios",
-    image: "/src/assets/images/greenguide_dark.png"
+    image: "/images/greenguide_dark.png"
   },
   {
     id: "proj-3",
@@ -77,6 +77,6 @@ export const projectsData: Project[] = [
       "Google Colaboratory",
     ],
     githubLink: "https://github.com/elisha-et/PlanetHunters",
-    image: "/src/assets/images/planethunters.png",
+    image: "/images/planethunters.png",
   },
 ];
