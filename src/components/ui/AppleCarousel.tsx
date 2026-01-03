@@ -86,11 +86,10 @@ export default function AppleCarousel({ cards, onCardClick }: AppleCarouselProps
           style={{ x: springX }}
           className="flex gap-6 px-4"
         >
-          {cards.map((card, index) => (
+          {cards.map((card) => (
             <CarouselCardComponent
               key={card.id}
               card={card}
-              index={index}
               onClick={() => onCardClick(card.id)}
               parentX={springX}
             />
@@ -173,14 +172,12 @@ export default function AppleCarousel({ cards, onCardClick }: AppleCarouselProps
 
 interface CarouselCardComponentProps {
   card: CarouselCard;
-  index: number;
   onClick: () => void;
   parentX: ReturnType<typeof useSpring>;
 }
 
 function CarouselCardComponent({
   card,
-  index,
   onClick,
   parentX,
 }: CarouselCardComponentProps) {
